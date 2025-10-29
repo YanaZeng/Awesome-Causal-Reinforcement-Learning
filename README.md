@@ -109,14 +109,16 @@ If you find the paper useful, please cite with,
 
 
 ## :closed_book: Surveys
-- (**TNNLS 2024**) A survey on causal reinforcement learning [[paper](https://ieeexplore.ieee.org/abstract/document/10771589)]
+- (**TNNLS 2024**) A survey on causal reinforcement learning [[our paper](https://ieeexplore.ieee.org/abstract/document/10771589)]
 - (**arxiv 2025**) A review on causal decision making [[paper](https://arxiv.org/pdf/2502.16156)] [[code](https://causaldm.github.io/Causal-Decision-Making/Overview.html)]
+- (**Acta Automatica Sinica (自动化学报) 2024**) 基于因果建模的强化学习控制: 现状及展望 [[论文](http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c220823)]
 - (**TNNLS 2023**) A survey on reinforcement learning for recommender systems [[paper](https://ieeexplore.ieee.org/abstract/document/10144689)]
+- (**Book 2023**) Applied Causal Inference [[book](https://appliedcausalinference.github.io/aci_book/)]
 - (**arxiv 2022**) Causal machine learning: A survey and open problems [[paper](https://arxiv.org/pdf/2206.15475)]
 - (**NeurIPS-W 2021**) Causal multi-agent reinforcement learning: Review and open problems [[paper](https://arxiv.org/pdf/2111.06721)]
 - (**ICML Tutorials 2020**) Causal reinforcement learning [[tutorial](https://crl.causalai.net/)]
 - (**Blog 2018**) Introduction to causal reinforcement learning [[blog](https://causallu.com/2018/12/31/introduction-to-causalrl/)]
-- (自动化学报 **2024**) 基于因果建模的强化学习控制: 现状及展望 [[论文](http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c220823)]
+
 
 <!--- (**ACM Computing Surveys 2017**) Imitation learning: A survey of learning methods [[paper](https://www.open-access.bcu.ac.uk/5045/1/Imitation%20Learning%20A%20Survey%20of%20Learning%20Methods.pdf)]
 - (**IJRR 2013**) Reinforcement learning in robotics: A survey [[paper](https://www.ias.informatik.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf)] -->
@@ -188,6 +190,7 @@ If you find the paper useful, please cite with,
 - (**NeurIPS 2023**) Interpretable reward redistribution in reinforcement learning: a causal approach [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/402e12102d6ec3ea3df40ce1b23d423a-Paper-Conference.pdf)]
 - (**ICLR 2023**) Causal Confusion and Reward Misidentification in Preference-Based Reward Learning [[paper](https://arxiv.org/pdf/2204.06601)]
 - (**ICLR 2023**) Causal Imitation Learning via Inverse Reinforcement Learning [[paper](https://openreview.net/pdf?id=B-z41MBL_tH)]
+- (**IJCAI 2023**) Causal Deep Reinforcement Learning Using Observational Data [[paper](https://www.ijcai.org/proceedings/2023/0524.pdf)] 
 - (**TPAMI 2023**) Invariant policy learning: A causal perspective [[paper](https://ieeexplore.ieee.org/abstract/document/10005169)]
 - (**TNNLS 2023**) Sample efficient deep reinforcement learning with online state abstraction and causal transformer model prediction [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10219179)]
 - (**TII 2023**) Spatial-temporal causality modeling for industrial processes with a knowledge-data guided reinforcement learning [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10352645)]
