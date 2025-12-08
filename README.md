@@ -40,23 +40,25 @@
 
 ## :information_desk_person: Abstract
 
-Causal Reinforcement Learning (CRL) is a suite of algorithms, embedding causal knowledge into RL for more efficient and effective model learning, policy evaluation, or policy optimization.
-How causality information inspires current RL algorithms is illustrated in the below CRL framework,
+Causal Reinforcement Learning (CRL) is a suite of algorithms, embeds causal knowledge into RL for more efficient and effective model learning, policy evaluation, or policy optimization.
+How causality information inspires current RL algorithms is illustrated in the CRL framework below,
 
 <div align="center">
   <img src="./utils/sketch_map_CRL.png" alt="" width="500">
 </div>
 
-> CRL framework illustrates how causality information inspires current RL algorithms. This framework contains possible algorithmic connections between planning and causality-inspired learning procedures. Explanations of each arrow are,
+> CRL framework illustrates how causality information inspires current RL algorithms. This framework contains the algorithmic connections between planning and causality-inspired learning procedures. Explanations of each arrow are,
 >
 > - a) input training data for the causal representation or abstraction learning;
 > - b) input representations, abstractions, or training data from the real world for the causal model;
 > - c) plan over a learned or given causal model,
 > - d) use information from a policy or value network to improve the planning procedure,
 > - e) use the result from planning as training targets for a policy or value,
+> - f) input causal representations, abstractions, or training data from the real world for the policy or value update,
 > - g) output an action in the real world from the planning,
 > - h) output an action in the real world from the policy/value function,
-> - f) input causal representations, abstractions, or training data from the real world for the policy or value update.
+> - i) generate the data with the action and the transitioned new state and reward.
+
 
 Note that most CRL algorithms implement only a subset of the possible connections with causality, enjoying potential benefits in data efficiency, interpretability, robustness, or generalization of the model or policy.
 
