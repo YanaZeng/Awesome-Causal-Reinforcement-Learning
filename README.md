@@ -112,6 +112,7 @@ If you find the paper useful, please cite with,
 
 ## :closed_book: Surveys
 - (**TNNLS 2024**) A survey on causal reinforcement learning [[our paper](https://ieeexplore.ieee.org/abstract/document/10771589)]
+- (**ACM Computing Surveys 2025**) Causality in Bandits: A Survey [[paper](https://dl.acm.org/doi/full/10.1145/3744917#sec-4)] 
 - (**arxiv 2025**) A review on causal decision making [[paper](https://arxiv.org/pdf/2502.16156)] [[code](https://causaldm.github.io/Causal-Decision-Making/Overview.html)]
 - (**Acta Automatica Sinica (自动化学报) 2024**) 基于因果建模的强化学习控制: 现状及展望 [[论文](http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c220823)]
 - (**TNNLS 2023**) A survey on reinforcement learning for recommender systems [[paper](https://ieeexplore.ieee.org/abstract/document/10144689)]
