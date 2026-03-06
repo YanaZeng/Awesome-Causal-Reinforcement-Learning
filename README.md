@@ -65,11 +65,11 @@ We detailed a comprehensive survey of CRL in the paper, [**A survey on causal re
 If you find the paper useful, please cite with,
 
 ```bibtex
-@article{zeng2024survey,
+@article{zeng2025survey,
     title={A Survey on Causal Reinforcement Learning},
     author={Zeng, Yan and Cai, Ruichu and Sun, Fuchun and Huang, Libo and Hao, Zhifeng},
     journal={IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS)},
-    year={2024},
+    year={2025},
     volume={36},
     number={4},
     pages={5942-5962},
@@ -109,7 +109,7 @@ If you find the paper useful, please cite with,
 
 
 ## :closed_book: Surveys
-- (**TNNLS 2024**) A survey on causal reinforcement learning [[our paper](https://ieeexplore.ieee.org/abstract/document/10771589)]
+- (**TNNLS 2025**) A survey on causal reinforcement learning [[our paper](https://ieeexplore.ieee.org/abstract/document/10771589)]
 - (**arxiv 2025**) A review on causal decision making [[paper](https://arxiv.org/pdf/2502.16156)] [[code](https://causaldm.github.io/Causal-Decision-Making/Overview.html)]
 - (**Acta Automatica Sinica (自动化学报) 2024**) 基于因果建模的强化学习控制: 现状及展望 [[论文](http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c220823)]
 - (**TNNLS 2023**) A survey on reinforcement learning for recommender systems [[paper](https://ieeexplore.ieee.org/abstract/document/10144689)]
