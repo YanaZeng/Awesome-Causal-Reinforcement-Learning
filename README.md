@@ -155,12 +155,16 @@ If you find the paper useful, please cite with,
 ## :bookmark_tabs: Papers
 
 
+### 2026 
+- (**JASA 2026**) Reinforcement learning with continuous actions under unmeasured confounding. [[paper](https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2590175)] 
+
+
 ### 2025
 - (**NeurIPS 2025**) Offline Imitation Learning with Variational Counterfactual Reasoning [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/8833c8aa10542d24d693bbaf6a4598f5-Paper-Conference.pdf)] [[code](https://github.com/ZexuSun/OILCA-NeurIPS23)]
 - (**arxiv 2025**) 3CIL: Causality-Inspired Contrastive Conditional Imitation Learning for Autonomous Driving [[paper](https://openreview.net/pdf?id=4QVgnxXVDB)]
-
-
-
+- (**Biometrika 2025**) A semiparametric instrumented difference-in-differences approach to policy learning [[paper](https://academic.oup.com/biomet/article/112/4/asaf043/8165427)]
+- (**ICML 2025**) Multi-Armed Bandits with Interference: Bridging Causal Inference and Adversarial Bandits [[paper](https://openreview.net/forum?id=3YTjTQhX8B)]
+- (**ICML 2025**) Hierarchical Reinforcement Learning with Targeted Causal Interventions [[paper](https://icml.cc/virtual/2025/poster/44521)]
 
 ### 2024
 - (**ICML 2024**) Policy learning for balancing short-term and long-term rewards [[paper](https://openreview.net/pdf?id=7Qf1uHTahP)] [[code](https://github.com/YanaZeng/Short_long_term-Rewards)]
