@@ -158,7 +158,10 @@ If you find the paper useful, please cite with,
 
 
 ### 2025
+- (**ICLR 2025**) Towards Generalizable Reinforcement Learning via Causality-Guided Self-Adaptive Representations [[paper](https://arxiv.org/pdf/2407.20651)] [[code](https://github.com/CMACH508/CSR)]
+- (**ICLR 2025**) Modeling Unseen Environments with Language-Guided Composable Causal Components in Reinforcement Learning [[paper](https://arxiv.org/pdf/2505.08361)] 
 - (**NeurIPS 2025**) Offline Imitation Learning with Variational Counterfactual Reasoning [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/8833c8aa10542d24d693bbaf6a4598f5-Paper-Conference.pdf)] [[code](https://github.com/ZexuSun/OILCA-NeurIPS23)]
+- (**NeurIPS 2025**) Causality Meets Locality: Provably Generalizable and Scalable Policy Learning for Network Systems [[paper](https://openreview.net/pdf?id=dfcQFL89OM)] 
 - (**arxiv 2025**) 3CIL: Causality-Inspired Contrastive Conditional Imitation Learning for Autonomous Driving [[paper](https://openreview.net/pdf?id=4QVgnxXVDB)]
 
 
