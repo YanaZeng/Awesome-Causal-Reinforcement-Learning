@@ -158,7 +158,9 @@ If you find the paper useful, please cite with,
 
 
 ### 2026 
-- (**JASA 2026**) Reinforcement learning with continuous actions under unmeasured confounding. [[paper](https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2590175)] 
+- (**JASA 2026**) Reinforcement learning with continuous actions under unmeasured confounding. [[paper](https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2590175)]
+- (**ICLR 2026**) Counterfactual Structural Causal Bandits [[paper](https://openreview.net/pdf?id=gjvTNxVd2f)] 
+- (**ICLR 2026**) Efficient and Sharp Off-Policy Learning Under Unobserved Confounding [[paper](https://openreview.net/pdf?id=7nTKiJLkWS)]
 
 
 ### 2025
