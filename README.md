@@ -1,7 +1,7 @@
 # Awesome Causal Reinforcement Learning
 
 [![](https://awesome.re/badge.svg)](#awesome-causal-reinforcement-learning)
-[![](https://img.shields.io/badge/Contributions-Welcome-1f425f)](#clap-contributions-chinese-version)
+[![](https://img.shields.io/badge/Contributions-Welcome-1f425f)](#clap-contributions)
 [![](https://img.shields.io/static/v1?label=%E2%AD%90&message=If%20Useful&style=flat&color=C7A5C0)](https://github.com/libo-huang/Awesome-Causal-Reinforcement-Learning)
 [![](https://img.shields.io/github/last-commit/libo-huang/Awesome-Causal-Reinforcement-Learning.svg)](#awesome-causal-reinforcement-learning)
 
@@ -9,13 +9,16 @@
 
 [:information_desk_person: Abstract](#information_desk_person-abstract)
 
+[:memo: Citation](#memo-citation)
+
 [:closed_book: Surveys](#closed_book-surveys)
 
 [:bookmark_tabs: Papers](#bookmark_tabs-papers)
 
-&emsp;[2025](#2025) | [2024](#2024) | [2023](#2023) | [2022](#2022) | [2021](#2021) | [2020](#2020) | [2019](#2019) | [2018](#2018) | [2017](#2017) | [Pre-2017](#pre-2017)
+&emsp;[2026](#2026) | [2025](#2025) | [2024](#2024) | [2023](#2023) | [2022](#2022) | [2021](#2021) | [2020](#2020) | [2019](#2019) | [2018](#2018) | [2017](#2017) | [Pre-2017](#pre-2017)
 
-[:clap: Contributions](#clap-contributions-chinese-version)
+[:clap: Contributions](#clap-contributions)
+
 
 ---
 
@@ -40,31 +43,39 @@
 
 ## :information_desk_person: Abstract
 
-Causal Reinforcement Learning (CRL) is a suite of algorithms, embeds causal knowledge into RL for more efficient and effective model learning, policy evaluation, or policy optimization.
-How causality information inspires current RL algorithms is illustrated in the CRL framework below,
+Causal Reinforcement Learning (CRL) is a suite of algorithms that embeds causal knowledge into RL for more efficient and effective model learning, policy evaluation, or policy optimization.
+
+The CRL framework below illustrates how causality information inspires current RL algorithms. It captures the algorithmic connections between planning and causality-inspired learning procedures:
 
 <div align="center">
-  <img src="./utils/sketch_map_CRL.png" alt="" width="500">
+  <img src="./utils/sketch_map_CRL.png" alt="Causal Reinforcement Learning Framework" width="500">
 </div>
 
-> CRL framework illustrates how causality information inspires current RL algorithms. This framework contains the algorithmic connections between planning and causality-inspired learning procedures. Explanations of each arrow are,
->
-> - a) input training data for the causal representation or abstraction learning;
-> - b) input representations, abstractions, or training data from the real world for the causal model;
-> - c) plan over a learned or given causal model,
-> - d) use information from a policy or value network to improve the planning procedure,
-> - e) use the result from planning as training targets for a policy or value,
-> - f) input causal representations, abstractions, or training data from the real world for the policy or value update,
-> - g) output an action in the real world from the planning,
-> - h) output an action in the real world from the policy/value function,
-> - i) generate the data with the action and the transitioned new state and reward.
+> **CRL Framework Legend:**
+> - **a)** Input training data for causal representation/abstraction learning
+> - **b)** Input representations, abstractions, or real-world training data for the causal model
+> - **c)** Plan over a learned or given causal model
+> - **d)** Use policy/value network info to improve planning
+> - **e)** Use planning results as training targets for policy/value
+> - **f)** Input causal representations, abstractions, or real-world data for policy/value updates
+> - **g)** Output action to the real world from planning
+> - **h)** Output action to the real world from policy/value function
+> - **i)** Generate transition data with action, next state, and reward
 
+Most CRL algorithms implement a subset of these connections, gaining advantages in **data efficiency, interpretability, robustness, or generalization**.
 
-Note that most CRL algorithms implement only a subset of the possible connections with causality, enjoying potential benefits in data efficiency, interpretability, robustness, or generalization of the model or policy.
+<div align="right">
+  <a href="#awesome-causal-reinforcement-learning" style="font-size: 40px;">:top:</a>
+</div>
 
-We detailed a comprehensive survey of CRL in the paper, [**A survey on causal reinforcement learning**](https://ieeexplore.ieee.org/abstract/document/10771589), and particularly list the causal-reinforcement-related works in this repository.
+---
 
-If you find the paper useful, please cite with,
+## :memo: Citation
+
+We provide a comprehensive overview of CRL in our survey paper:
+📄 **[A Survey on Causal Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/10771589)** (IEEE TNNLS 2025).
+
+If you find this repository or our survey helpful in your research, please consider citing:
 
 ```bibtex
 @article{zeng2025survey,
@@ -79,9 +90,9 @@ If you find the paper useful, please cite with,
 }
 ```
 
-‼️ We have continuously updated the latest papers, so the scope of the literature covered extends beyond the above survey.
+‼️ **Actively Maintained**: We $\color{red}{\textbf{continuously update}}$ this repository with the latest breakthroughs, expanding the literature far beyond the above survey.
 
-⁉️ Any new related works are welcome to be added via [pull requests](#clap-contributions-chinese-version).
+💡 **Contributions Welcome**: Missing a related work? We highly encourage you to add it via a [pull request](#clap-contributions)!
 
 
 
@@ -160,7 +171,7 @@ If you find the paper useful, please cite with,
 ### 2026 
 - (**JASA 2026**) Reinforcement learning with continuous actions under unmeasured confounding. [[paper](https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2590175)]
 - (**ICLR 2026**) Counterfactual Structural Causal Bandits [[paper](https://openreview.net/pdf?id=gjvTNxVd2f)] 
-- (**ICLR 2026**) Efficient and Sharp Off-Policy Learning Under Unobserved Confounding [[paper](https://openreview.net/pdf?id=7nTKiJLkWS)]
+- (**ICLR 2026**) Efficient and Sharp Off-Policy Learning Under Unobserved Confounding [[paper](https://openreview.net/pdf?id=7nTKiJLkWS)] [[code](https://github.com/konstantinhess/Efficient_sharp_policy_learning)]
 
 
 ### 2025
@@ -234,7 +245,7 @@ If you find the paper useful, please cite with,
 - (**ECCV 2022**) Resolving copycat problems in visual imitation learning via residual action prediction [[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136990386.pdf)] [[code](https://github.com/linYDTHU/Resolving_copycat_problems_via_residual_prediction)]
 - (**AAAI 2022**) Invariant action effect model for reinforcement learning [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20913)]
 - (**AAAI 2022**) Learning Human Driving Behaviors with Sequential Causal Imitation Learning [[paper](https://cdn.aaai.org/ojs/20382/20382-13-24395-1-2-20220628.pdf)] [[code](https://github.com/CU-DitecT/Causal-GAIL)]
-- (**CHIL 2022**) Counterfactually Guided Policy Transfer in Clinical Settings [[paper](https://proceedings.mlr.press/v174/killian22a/killian22a.pdf)
+- (**CHIL 2022**) Counterfactually Guided Policy Transfer in Clinical Settings [[paper](https://proceedings.mlr.press/v174/killian22a/killian22a.pdf)]
 - (**CLeaR 2022**) Efficient Reinforcement Learning with Prior Causal Knowledge [[paper](https://proceedings.mlr.press/v177/lu22a/lu22a.pdf)]
 - (**ICLR-W 2022**) Invariant causal representation learning for generalization in imitation and reinforcement learning [[paper](https://openreview.net/forum?id=r87xPSd89gq)]
 - (**arXiv 2022**) Offline reinforcement learning with causal structured world models [[paper](https://arxiv.org/pdf/2206.01474)]
@@ -408,21 +419,24 @@ If you find the paper useful, please cite with,
 
 
 
-## :clap: Contributions [[chinese version](https://blog.csdn.net/HLBoy_happy/article/details/140026155?fromshare=blogdetail&sharetype=blogdetail&sharerId=140026155&sharerefer=PC&sharesource=HLBoy_happy&sharefrom=from_link)]
+## :clap: Contributions
 
-**1. Fork the Repository:** Click on the `Fork` button in the top-right corner to create a copy of the repository in your GitHub account.
+[📖 中文贡献指南](https://blog.csdn.net/HLBoy_happy/article/details/140026155)
 
-**2. Create a New Branch:** In your forked repository, create a new branch (e.g., "libo") by using the branch selector button near the top-left (usually labeled `master` or `main`).
+We welcome contributions from the community! If you'd like to add a new paper or resource, please follow these steps:
 
-**3. Make Your Changes:** Switch to your new branch using the same selector. Then, click the `Edit file` button at the top right and make your changes. Add entries in the following format:
+1. **Fork the Repository:** Click `Fork` in the top-right corner.
 
-```bash
-  - (**publisher_name year**) manuscript_name [[publication_type](online_manuscript_link)] [[code](online_code_link)]
-```
+2. **Create a Branch:** Create a feature branch (e.g., `add-paper-2025`).
 
-**4. Commit Changes:** Save your changes by clicking the `Commit changes` button in the upper-right corner. Enter a commit message (e.g., "add 1 cvpr'24 paper") and an extended description if necessary, then confirm your changes by clicking the `Commit changes` button again at the bottom right.
+3. **Add the Paper:** Add your entry into the corresponding year or topic using the exact format below:
+    ```markdown
+    - (**Venue Year**) Paper Title [[paper](link)] [[code](link)]
+    ```
+    Example:
+    - (**TNNLS 2025**) A survey on causal reinforcement learning [[paper](https://ieeexplore.ieee.org/abstract/document/10771589)]
 
-**5. Create a Pull Request:** Go back to your forked repository and click `Compare & pull request`. Alternatively, select your branch from the branch selector and click `Open pull request` from the `Contribute` drop-down menu. Fill out the title and description for your pull request, and click `Create pull request` to submit it.
+5. **Submit a Pull Request:** Open a Pull Request with a clear title (e.g., Add TNNLS 2025 paper:A survey on causal reinforcement learning).
 
 
 <div align="right">
